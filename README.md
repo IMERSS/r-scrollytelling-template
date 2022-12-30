@@ -1,8 +1,9 @@
 # R Markdown Scrollytelling Template Repository
 
 This project hosts a skeleton structure suitable for building out and publishing a map-based scrollytelling
-interface based on R Markdown. You can build your own scrollytelling interface using R and R Markdown,
-using free tools such as git, R and R studio, and publish and host it for free using [GitHub Pages](https://pages.github.com/).
+interface based on [R Markdown](https://rmarkdown.rstudio.com/). You can build your own scrollytelling interface
+using R and R Markdown, using free tools such as git, R and R studio, and publish and host it for free using
+[GitHub Pages](https://pages.github.com/).
 
 These files were distilled from work done for the
 [Maxwell Creek Watershed Project](https://transitionsaltspring.com/maxwell-creek-watershed-project/) which is being
