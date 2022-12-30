@@ -46,6 +46,9 @@ To make your own fork of this repository to start filling it with your own conte
 [forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) - you will want
 to choose a new name for the repository as shown in step 4 of these instructions.
 
+For a more simple-minded approach, you can simply copy all the files resulting from cloning this repository into a new
+folder on your system (missing out the `.git` directory).
+
 After this, you can switch to Posit's instructions on
 [using git with R Studio](https://support.posit.co/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN) - go to
 the section named "Creating a new project based on a remote Git or Subversion repository" and supply the repository URL
