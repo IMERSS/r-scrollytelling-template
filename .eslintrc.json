@@ -1,0 +1,15 @@
+{
+    "extends": "eslint-config-fluid",
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "strict": ["error", "global"],
+        "no-loop-func": 0,
+        "no-console": 0,
+        "new-cap": 0
+    }
+}

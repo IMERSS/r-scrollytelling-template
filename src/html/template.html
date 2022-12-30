@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/maxwell.css" />
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="js/reweave-client.js"></script>
+    
+    <title>Maxwell Creek Watershed Restoration Project</title>
+</head>
+<body>
+	<h1 class="mxcw-banner">
+	Maxwell Creek Watershed Restoration Project
+	</h1>
+	<div class="mxcw-container">
+		<div class="mxcw-leftPane">
+		    <div class="mxcw-map">
+		    </div>
+		    <div class="mxcw-data">
+		    DATA
+		    </div>
+		</div>
+		<div class="mxcw-content">
+		</div>
+    </div>
+    <script>
+    maxwell.instantiateLeaflet(".mxcw-map");
+    </script>
+</body>
+</html>

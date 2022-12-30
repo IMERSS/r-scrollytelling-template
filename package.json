@@ -1,0 +1,29 @@
+{
+    "name": "r-scrollytelling-template",
+    "description": "Template repository for publishing R Markdown scrollytelling map-based stories to GitHub Pages",
+    "version": "0.0.1",
+    "author": "IMERSS, Transition Salt Spring",
+    "scripts": {
+        "lint": "fluid-lint-all",
+        "build": "node src/js/reweave.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "infusion": "4.6.0",
+        "minimist": "1.2.6",
+        "linkedom": "0.14.21",
+        "terser": "5.16.1",
+        "fs-extra": "11.1.0",
+        "eslint": "8.30.0",
+        "eslint-config-fluid": "2.1.1",
+        "fluid-lint-all": "1.2.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IMERSS/r-scrollytelling-template"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "license": "BSD-3-Clause"
+}

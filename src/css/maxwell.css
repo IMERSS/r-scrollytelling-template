@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-block-start: 0px;
+}
+
+.main-container {
+    padding-bottom: 50em;
+}
+
+.mxcw-banner {
+    font-size: 36px;
+}
+
+.mxcw-container {
+    display: flex;
+}
+
+.mxcw-leftPane {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.mxcw-map {
+    height: 70%;
+}
+
+.mxcw-data {
+    font-size: 60px;
+    padding: 2rem;
+}
+
+.mxcw-content {
+    width: 35%;
+    font-size: 18px;
+    padding: 0 1rem 0 1rem;
+    height: calc(100vh - 100px);
+    overflow-y: scroll;
+}
+
+.mxcw-content h2:hover {
+    outline: 1px solid grey;
+    cursor: pointer;
+}
+
+.mxcw-mapPane {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 400ms;
+}
+
+.mxcw-mapPane.mxcw-activeMapPane {
+    opacity: 1;
+}
+
+.mxcw-content .section {
+    padding: 4px;
+}
+
+.mxcw-activeSection {
+    background-color: #eee;
+    outline: 1px solid black;
+    transition-property: background-color, outline;
+    transition-duration: 400ms;
+}
+
+.mxcw-mapLabel {
+    z-index: 999 !important;
+}
+
+.mxcw-fireLabel {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mxcw-siteLabel {
+    font-size: 10px;
+    top: -19px;
+    color: white;
+}
+
+.mxcw-mapLabel > div {
+    transform: translateX(-50%) translateY(-50%);
+}
