@@ -11,10 +11,6 @@ undertaken by [Transition Salt Spring](https://transitionsaltspring.com/).
 
 You can browse the kind of scrollytelling interface which can be produced in the [Maxwell Project's GitHub pages](https://imerss.github.io/maxwell/). You can browse this own template repository's output at [R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
 
-You can browse the published version of this own template's documents in [GitHub pages](https://imerss.github.io/r-scrollytelling-template).
-Once you have followed the instructions below, you can see your own documents published in GitHub pages at
-a URL like `https://<your-account>.github.io/<your-repository>`.
-
 As a general guide to the potential of storymapping frameworks to use data to tell stories, you can visit two
 thoroughly elaborated [data explorations](https://www.data-arc.org/my-front-page/example-data-explorations/) from
 the dataARC project which present two stories, "Quantifying an ever-changing landscape" and "Data mining the past"
@@ -105,6 +101,8 @@ tab on your repository's settings, as shown in the image below:
 ![GitHub Pages configuration](img/gh-pages.png)
 
 You can find our what URL your markup will be published at by looking in the [docs](docs) directory of your own repository. For example, the [docs/R-Markdown-Background-Rewoven.html](docs/R-Markdown-Background-Rewoven.html) file is published at [https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
+
+The overall URL of your documents published in GitHub pages will start with `https://<your-account>.github.io/<your-repository>`.
 
 ## Get involved
 
