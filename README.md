@@ -12,7 +12,7 @@ You can browse the kind of scrollytelling interface which can be produced in [Gi
 
 You can browse the published version of this own template's documents in [GitHub pages](https://imerss.github.io/r-scrollytelling-template).
 Once you have followed the instructions below, you can see your own documents published in GitHub pages at
-a URL like `https://<your-account>.github.io/<your-repository>`.
+a URL like https://<your-account>.github.io/<your-repository>.
 
 As a general guide to the potential of storymapping frameworks to use data to tell stories, you can visit two
 thoroughly elaborated [data explorations](https://www.data-arc.org/my-front-page/example-data-explorations/) from
@@ -36,7 +36,7 @@ In order to reknit the markup rendered by R and R markdown, you will also need t
 
 * node and npm for your platform, installed according to [node's instructions](https://nodejs.org/en/download/).
 
-Rather than doing this reknitting yourself, you could enlist a friendly developer to do these actions for you and commit to
+Rather than doing this yourself, you could enlist a friendly developer to do these actions for you and commit to
 your repository. Before long, this repository will contain automatic actions to do this using
 [GitHub Actions](https://github.com/features/actions).
 
@@ -45,9 +45,6 @@ your repository. Before long, this repository will contain automatic actions to 
 To make your own fork of this repository to start filling it with your own content, follow GitHub's instructions on
 [forking a repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) - you will want
 to choose a new name for the repository as shown in step 4 of these instructions.
-
-For a more simple-minded approach, you can simply copy the files resulting from cloning this repository into a new
-directory on your system (missing out the `.git` directory).
 
 After this, you can switch to Posit's instructions on
 [using git with R Studio](https://support.posit.co/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN) - go to
@@ -80,7 +77,7 @@ Please consult the [using Leaflet with R](https://rstudio.github.io/leaflet/) gu
 to your maps.
 
 The sample map contains one simple vector and one simple raster dataset. Each second-level heading in the document -
-rendered using ## in markdown, and an `<h2>` tag in the output markup, will correspond to a separate section in the
+rendered using ## in markdown, and an <h2> tag in the output markup, will correspond to a separate section in the
 scrollytelling interface. Each leaflet map that you render in such a section will be compiled by the reknitting process
 into a separate map layer on the shared map. Note that not many R leaflet constructs are currently supported by the
 reknitting process - [contact us](https://github.com/IMERSS/r-scrollytelling-template/issues) with details of what you
@@ -94,6 +91,14 @@ from the terminal in the project folder. Commit and push the output from this st
 
 If you want to reknit to different input or output filenames, edit the reweaveJobs block in [src/js/reweave.js](src/js/reweave.js).
 To customise the markup which frames the reknitted output, you can edit the HTML template at [src/html/template.html](src/html/template.html).
+
+## Setting up GitHub Pages to publish your markup
+
+To publish the markup resulting from both the knitting and the reknitting process, set up the configuration on your
+repository to publish GitHub Pages from the `docs` folder of the `main` branch. This is available from the `Pages`
+tab on your repository's settings, as shown in the image below: 
+
+`[GitHub Pages configuration](img/gh-pages.png)
 
 ## Get involved
 
