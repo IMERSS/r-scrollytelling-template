@@ -8,7 +8,7 @@ These files were distilled from work done for the
 [Maxwell Creek Watershed Project](https://transitionsaltspring.com/maxwell-creek-watershed-project/) which is being
 undertaken by [Transition Salt Spring](https://transitionsaltspring.com/).
 
-You can browse the kind of scrollytelling interface which can be produced in [GitHub pages](https://imerss.github.io/maxwell/).
+You can browse the kind of scrollytelling interface which can be produced in the [Maxwell Project's GitHub pages](https://imerss.github.io/maxwell/). You can browse this own template repository's output at [R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
 
 You can browse the published version of this own template's documents in [GitHub pages](https://imerss.github.io/r-scrollytelling-template).
 Once you have followed the instructions below, you can see your own documents published in GitHub pages at
@@ -102,6 +102,8 @@ repository to publish GitHub Pages from the `docs` folder of the `main` branch. 
 tab on your repository's settings, as shown in the image below: 
 
 ![GitHub Pages configuration](img/gh-pages.png)
+
+You can find our what URL your markup will be published at by looking in the [docs](docs) directory of your own repository. For example, the [docs/R-Markdown-Background-Rewoven.html](docs/R-Markdown-Background-Rewoven.html) file is published at [https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
 
 ## Get involved
 
