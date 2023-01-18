@@ -82,9 +82,19 @@ const deps = [{
     source: "%maxwell/src/js/client/reweave-client.js",
     target: "%maxwell/docs/js/reweave-client.js"
 }, {
+    source: "%maxwell/src/js/client/plotly-2.1.1.js",
+    target: "%maxwell/docs/js/plotly-2.1.1.js"
+}, {
+    source: "%maxwell/src/js/client/htmlwidgets.js",
+    target: "%maxwell/docs/js/htmlwidgets.js"
+}, {
+    source: "%maxwell/src/js/client/htmlwidgets-plotly.js",
+    target: "%maxwell/docs/js/htmlwidgets-plotly.js"
+}, {
     source: "%maxwell/src/css/maxwell.css",
     target: "%maxwell/docs/css/maxwell.css"
 }];
+
 
 deps.forEach(function (dep) {
     copyDep(dep.source, dep.target);
