@@ -5,18 +5,17 @@
     "author": "IMERSS, Transition Salt Spring",
     "scripts": {
         "lint": "fluid-lint-all",
-        "build": "node src/js/reweave.js"
+        "build": "node src/js/reknit.js"
     },
     "dependencies": {},
     "devDependencies": {
         "infusion": "4.6.0",
-        "minimist": "1.2.6",
-        "linkedom": "0.14.21",
-        "terser": "5.16.1",
+        "json5": "2.2.3",
+        "linkedom": "0.14.23",
         "fs-extra": "11.1.0",
-        "eslint": "8.30.0",
+        "eslint": "8.35.0",
         "eslint-config-fluid": "2.1.1",
-        "fluid-lint-all": "1.2.3"
+        "fluid-lint-all": "1.2.8"
     },
     "repository": {
         "type": "git",

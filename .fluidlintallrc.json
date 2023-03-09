@@ -7,12 +7,9 @@
     },
     "eslint": {
         "js": {
-            "excludes": ["src/lib/**/*.js", "data/**/*.json5"],
-            "options": {
-            }
+            "excludes": ["./src/js/client/plotly-2.1.1.js", "src/js/client/htmlwidgets.js", "src/js/client/htmlwidgets-plotly.js"]
         },
         "json": {
-            "excludes": ["data/**/*.json5"]
         }
     },
     "markdownlint": {

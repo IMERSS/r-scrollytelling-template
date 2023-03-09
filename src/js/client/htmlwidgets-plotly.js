@@ -1,3 +1,7 @@
+// Copied from HTMLWidgets project at https://github.com/ramnathv/htmlwidgets
+// License: MIT + file LICENSE
+// COPYRIGHT HOLDER: Ramnath Vaidyanathan, Joe Cheng, JJ Allaire, Yihui Xie, and Kenton Russell
+
 HTMLWidgets.widget({
     name: "plotly",
     type: "output",

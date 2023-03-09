@@ -9,7 +9,9 @@ These files were distilled from work done for the
 [Maxwell Creek Watershed Project](https://transitionsaltspring.com/maxwell-creek-watershed-project/) which is being
 undertaken by [Transition Salt Spring](https://transitionsaltspring.com/).
 
-You can browse the kind of scrollytelling interface which can be produced in the [Maxwell Project's GitHub pages](https://imerss.github.io/maxwell/). You can browse this own template repository's output at [R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
+You can browse the kind of scrollytelling interface which can be produced in the
+[Maxwell Project's GitHub pages](https://imerss.github.io/maxwell/). You can browse this own template
+repository's output at [R-Markdown-Background-Reknitted.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Reknitted.html).
 
 As a general guide to the potential of storymapping frameworks to use data to tell stories, you can visit two
 thoroughly elaborated [data explorations](https://www.data-arc.org/my-front-page/example-data-explorations/) from
@@ -89,18 +91,21 @@ Once your customised map knits properly using the R Studio "Knit" process, you c
 
 from the terminal in the project folder. Commit and push the output from this stage using R Studio or git as you prefer.
 
-If you want to reknit to different input or output filenames, edit the reweaveJobs block in [src/js/reweave.js](src/js/reweave.js).
-To customise the markup which frames the reknitted output, you can edit the HTML template at [src/html/template.html](src/html/template.html).
+If you want to reknit to different input or output filenames, edit the reknitJobs block in the configuration file
+at [config.json5](config.json5). To customise the markup which frames the reknitted output, you can edit the HTML
+template at [src/html/template.html](src/html/template.html).
 
 ## Setting up GitHub Pages to publish your markup
 
 To publish the markup resulting from both the knitting and the reknitting process, set up the configuration on your
 repository to publish GitHub Pages from the `docs` folder of the `main` branch. This is available from the `Pages`
-tab on your repository's settings, as shown in the image below: 
+tab on your repository's settings, as shown in the image below:
 
 ![GitHub Pages configuration](img/gh-pages.png)
 
-You can find our what URL your markup will be published at by looking in the [docs](docs) directory of your own repository. For example, the [docs/R-Markdown-Background-Rewoven.html](docs/R-Markdown-Background-Rewoven.html) file is published at [https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Rewoven.html).
+You can find our what URL your markup will be published at by looking in the [docs](docs) directory of your own
+repository. For example, the [docs/R-Markdown-Background-Reknitted.html](docs/R-Markdown-Background-Reknitted.html)
+file is published at [https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Reknitted.html](https://imerss.github.io/r-scrollytelling-template/R-Markdown-Background-Reknitted.html).
 
 The overall URL of your documents published in GitHub pages will start with `https://<your-account>.github.io/<your-repository>`.
 
@@ -108,4 +113,5 @@ The overall URL of your documents published in GitHub pages will start with `htt
 
 To suggest improvements to these instructions and publishing system, please
 [raise an issue](https://github.com/IMERSS/r-scrollytelling-template/issues). For a wider background
-surrounding this project and its philosophy, please go to [Knitting Data Communities](https://continuing-creativity.github.io/knitting-data-communities/).
+surrounding this project and its philosophy, please go to
+[Knitting Data Communities](https://lichen-community-systems/knitting-data-communities/).

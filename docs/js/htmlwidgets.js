@@ -1,3 +1,7 @@
+// Copied from HTMLWidgets project at https://github.com/ramnathv/htmlwidgets
+// License: MIT + file LICENSE
+// COPYRIGHT HOLDER: Ramnath Vaidyanathan, Joe Cheng, JJ Allaire, Yihui Xie, and Kenton Russell
+
 (function() {
     // If window.HTMLWidgets is already defined, then use it; otherwise create a
     // new object. This allows preceding code to set options that affect the
