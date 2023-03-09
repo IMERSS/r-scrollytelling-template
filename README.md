@@ -20,7 +20,7 @@ using two mature storymapping frameworks, [ESRI/ArcGIS Storymaps](https://storym
 
 Here we operate a homegrown approach showing how readily available and widely understood open source tools can be
 orchestrated to produce a basic end-to-end authoring and hosting environment.
-Consult [Knitting Data Communities](https://continuing-creativity.github.io/knitting-data-communities/) for some values
+Consult [Knitting Data Communities](https://lichen-community-systems.github.io/knitting-data-communities/) for some values
 underlying this work.
 
 ## Installation instructions
@@ -114,4 +114,4 @@ The overall URL of your documents published in GitHub pages will start with `htt
 To suggest improvements to these instructions and publishing system, please
 [raise an issue](https://github.com/IMERSS/r-scrollytelling-template/issues). For a wider background
 surrounding this project and its philosophy, please go to
-[Knitting Data Communities](https://lichen-community-systems/knitting-data-communities/).
+[Knitting Data Communities](https://lichen-community-systems.github.io/knitting-data-communities/).
